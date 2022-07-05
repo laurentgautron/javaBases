@@ -3,6 +3,7 @@ public class permutation {
         int a = 51;
         int b = 876;
         int c = 235;
+        System.out.printf("a: %d\nb: %d\nc: %d\n", a, b, c);
         int d = c;
         c = b;
         b = a;

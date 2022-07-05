@@ -1,4 +1,4 @@
-import java.util.Date;
+import java.util.Calendar;
 import java.util.Scanner;
 
 public class anneeNaissance {
@@ -6,8 +6,8 @@ public class anneeNaissance {
         Scanner input = new Scanner(System.in);
         System.out.print("Quelle est votre age ? ");
         int age = input.nextInt();
-        Date now = new Date();
-        int anneeNaissance = now.getYear() - age;
+        int year = Calendar.getInstance().get(Calendar.YEAR);
+        int anneeNaissance = year - age;
         System.out.printf("Votre année de naissance est: %d", anneeNaissance);
     }
 }
