@@ -5,7 +5,7 @@ public class Datatypes {
         String prenom = "Laurent";
         String nom = "GAUTRON";
 
-        // caractères
+        // caractères: guillemets simples
         char genre = 'm';
         // Réels: rajouter un F ou f pour que java accepte le float, sinon il considère que c'est un double
         float poids = 85.5F;
@@ -16,5 +16,7 @@ public class Datatypes {
 
         // Byte : une variante d'entier court
         byte age = 89;
+
+        System.out.println("je suis "+ prenom + " " + nom + ", j'ai " + age + " ans. Mon tjm est de " + tjm + " euros");
     }
 }
