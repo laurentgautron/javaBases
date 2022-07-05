@@ -4,6 +4,9 @@ public class Datatypes {
         // chaînes de caractères
         String prenom = "Laurent";
         String nom = "GAUTRON";
+        // pascalCase : recommandé pour java
+        String nomComplet = prenom = ' ' + nom;
+
 
         // caractères: guillemets simples
         char genre = 'm';
@@ -18,7 +21,7 @@ public class Datatypes {
         byte age = 89;
 
         // mauvaise méthode
-        System.out.println("je suis "+ prenom + " " + nom + ", j'ai " + age + " ++ans. Mon tjm est de " + tjm + " euros");
+        System.out.println("je suis "+ nomComplet + ", j'ai " + age + " ++ans. Mon tjm est de " + tjm + " euros");
 
         // meilleure méthode: %s = string, %d = integer, %f = float, le 1 devant = limite à 1 seul rang après la virgule
         System.out.printf("je suis %s %s, j'ai %d ans. Mon tjm est de %.1f€.\n", prenom, nom, age, tjm);
