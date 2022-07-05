@@ -17,6 +17,10 @@ public class Datatypes {
         // Byte : une variante d'entier court
         byte age = 89;
 
-        System.out.println("je suis "+ prenom + " " + nom + ", j'ai " + age + " ans. Mon tjm est de " + tjm + " euros");
+        // mauvaise méthode
+        System.out.println("je suis "+ prenom + " " + nom + ", j'ai " + age + " ++ans. Mon tjm est de " + tjm + " euros");
+
+        // meilleure méthode: %s = string, %d = integer, %f = float, le 1 devant = limite à 1 seul rang après la virgule
+        System.out.printf("je suis %s %s, j'ai %d ans. Mon tjm est de %.1f€.\n", prenom, nom, age, tjm);
     }
 }
