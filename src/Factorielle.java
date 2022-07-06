@@ -8,7 +8,8 @@ public class Factorielle {
         int factoriel = 1;
         if (nombre != 0) {
             while (nombre != 0) {
-                System.out.printf("%d x ", nombre);
+                String operation = nombre ==1 ? "" : "x";
+                System.out.printf("%d %s ", nombre, operation);
                 factoriel *= nombre;
                 nombre--;
             }
