@@ -18,8 +18,6 @@ public class BoucleWhile {
                 break;
             }
             System.out.println("Code PIN erroné, veuillez reessayer");
-            }
         }
-
     }
 }
