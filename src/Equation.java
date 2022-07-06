@@ -27,4 +27,13 @@ public class Equation {
             }
         }
     }
+    // autre façon
+    // double x1 = 0, x2 = 0
+    // puis if (delta >= 0) {
+    //          x1 = ...
+    //          X2 = ...
+    //      } else {
+    //          ...
+    //      }
+
 }

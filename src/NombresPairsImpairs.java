@@ -20,4 +20,17 @@ public class NombresPairsImpairs {
             System.out.print(" impair");
         }
     }
+    // autre façon:
+    // utile si on ne se sert de la parite seulement très peu de fois
+    // String Parite = nombre % 2 ? "paire" : "impair";
+    // if (nombre > 0) {
+    //    System.out.println("%d est positif et %s", nombre, parite);
+    //} else if (nombre < 0) {
+    //    System.out.println("%d set négatif et %s", nombre, parite);
+    //} else {
+    //    System.out.println("0 et pair");
+    //}
+    // ou encore faire boolean estPair = nombre % 2 == 0
+    // puis System.out.println("%d est positif et %s", nombre, estPaire ? "pair" : "impair");
+
 }
