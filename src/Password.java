@@ -7,6 +7,7 @@ public class Password {
         String email = input.nextLine();
         System.out.print("Password: ");
         String password = input.nextLine();
+
         int nbTentatives = 5;
         int compteur = 5;
         while(true) {
