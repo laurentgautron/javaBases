@@ -1,9 +1,10 @@
 import java.util.HashMap;
+import java.util.Set;
 
 public class HMapConcept {
     public static void main(String[] args) {
         // à partir d'une phrase afficher le nombre d'occurence de chaque caractère
-        String phrase = "je suis dans une joie immense. Et je sais que c'st aussi le cas pour vous";
+        String phrase = "je suis dans une joie immense. Et je sais que c'est aussi le cas pour vous";
 
         //
         String phraseFormatee = phrase.replaceAll("[^A-Za-z]", "").toLowerCase();
@@ -23,6 +24,7 @@ public class HMapConcept {
                 occurences.put(lettre, 1);
             }
         }
+
         System.out.println(occurences);
     }
 }
